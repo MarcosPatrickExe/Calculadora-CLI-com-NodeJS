@@ -1,0 +1,28 @@
+{
+  "name": "calculadora-cli-avancada",
+  "version": "1.0.0",
+  "description": "Calculadora para tratar de diferentes problemas matematicos, como",
+  "main": "calcularSsmd.js",
+  "preferGlobal":true,
+  "bin":{
+    "calcularSsmd":"calcularSsmd"
+  },
+  "scripts": {
+    "test": "instanbul cover _mocha -- -R spec",
+    "watch": "instanbul cover _mocha -- -R spec --watch"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosPatrickExe/calculadora-cli-avancada.git"
+  },
+  "keywords": [
+    "calculos",
+    "matematicos"
+  ],
+  "author": "marcos patrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcosPatrickExe/calculadora-cli-avancada/issues"
+  },
+  "homepage": "https://github.com/MarcosPatrickExe/calculadora-cli-avancada#readme"
+}
